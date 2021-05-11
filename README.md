@@ -6,5 +6,8 @@ That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRA
 # The PCB:
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/Rev.%20A/ZX81%20Intern%2016K.png)
 
+# Billing of Materials:
+|Qty
+
 
 

@@ -3,6 +3,8 @@ This litlle PCB is a 'quick and dirty, no wobbly' 16K internal memory expansion 
 
 That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRAM with a 32KB SRAM, of which 16KB is usable. All of the necessary re-routing of address lines is done on the PCB, so need to cut tracks on the ZX81 PCB or bending of pins, etc. Easily reversible.
 
+This expansion also has a 10K resistor between pin 28 (+5 volt) and pin 27 (WE) for HRG8 (High Res) compatibility.
+
 # The PCB:
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/Rev.%20A/ZX81%20Intern%2016K.png)
 

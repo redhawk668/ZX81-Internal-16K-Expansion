@@ -22,6 +22,7 @@ First desolder the old RAM chips. Clear out the holes and solder a 28 pin socket
 - Solder the other end of the A13 wire to the cathode of D5
 
 It should look like this:
+
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/IMG_20210510_172720.jpg)
 
 Re-assemble the ZX81 and turn it on, it should take a few seconds before the 'K' appears.

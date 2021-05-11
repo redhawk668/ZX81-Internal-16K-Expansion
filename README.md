@@ -15,5 +15,7 @@ That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRA
 |     |       | Pin Socket Strip    |         |     |
 -----------------------------------------------------
 
+# Installation:
+First desolder the old RAM chips. Clear out the holes and solder a 28 pin socket on the ZX81 PCB. Solder three wires to the RAM expansion PCB 
 
 

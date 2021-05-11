@@ -29,15 +29,14 @@ It should look like this:
 
 Re-assemble the ZX81 and turn it on, it should take a few seconds before the 'K' appears.
 
-To test the memory expansion, run the following program:
+To test the memory expansion, run the following command:
 
-10 FOR N=16640 TO 65536 STEP 256
-20 POKE N,0
-30 IF PEEK N<>0 THEN GOTO 50
-40 NEXT N
-50 PRINT "MEMORY SIZE ";(N/1024)-16;"KB"
+PRINT PEEK 16388+256*PEEK 16389
 
-If all goes well, it should report 16KB.
+Result should be 32768.
+
+
+
 
 
 

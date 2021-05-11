@@ -25,7 +25,7 @@ First desolder the old RAM chips. Clear out the holes and solder a 28 pin socket
 
 Insert the memory expansion into the socket.
 
-It should look like this:
+It should look like this (installed on Issue 3 PCB):
 
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/IMG_20210510_172720.jpg)
 

@@ -17,8 +17,6 @@ That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRA
 
 # Installation:
 First desolder the old RAM chips. Clear out the holes and solder a 28 pin socket on the ZX81 PCB. There is jumper link on the ZX81 PCB, this has to be set to LK2 (L2 on Issue 1 PCB's). This routes address line A10 to the corresponding pin on the memory expansion. Solder wires to the address lines A11, A12 & A13 on the memory expansion PCB. 
-
-# Connecting the memory expansion:
-- Solder 
+- Solder
 
 

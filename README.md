@@ -1,7 +1,7 @@
 # ZX81-Internal-16K-Expansion 'No Wobbly Edition'
 This litlle PCB is a 'quick and dirty, no wobbly' 16K internal memory expansion for the Sinclair ZX81. The ZX81 is a very simple computer and only has 1KB of memory, which could be expanded to 16KB by using a RAMpack. This had to be connected to the expansion port on the back of the computer. It is this RAMpack that was notorious for the infamous 'RAMpack wobble', a certain movement of the computer would cause a crash, resulting in losing work, etc. 
 
-That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRAM with a 32KB SRAM, of which 16KB is usable. All of the necessary re-routing of address lines is done on the PCB, so need to cut tracks on the ZX81 PCB or bending of pins, etc. Easily reversible.
+That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRAM with a 32KB SRAM, of which 16KB is usable. All of the necessary re-routing of address lines is done on the PCB, so need to cut tracks on the ZX81 PCB or bending of pins, etc. It is easily reversible by inserting a 6116 SRAM in the socket.
 
 This expansion also has a 10K resistor between pin 28 (+5 volt) and pin 27 (WE) for HRG8 (High Res) compatibility.
 

@@ -7,7 +7,13 @@ That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRA
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/Rev.%20A/ZX81%20Intern%2016K.png)
 
 # Billing of Materials:
-|Qty
+|Qty  |Value  |Component            |Package  |PCB  |
+|-----|-------|---------------------|---------|-----|
+| 1x  | 10K   | Resistor            | 1206    | R1  |
+| 1x  | 0.1uF | Ceramic Capacitor   | 1206    | C1  |
+| 1x  |       | 62256 32Kx8 SRAM    | SOP-28  | U1  |
+|     |       | Pin Socket Strip    |         |     |
+-----------------------------------------------------
 
 
 

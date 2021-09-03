@@ -5,7 +5,7 @@ That is where the 'No Wobbly Edition' comes in, it replaces the internal 1KB SRA
 
 This expansion also has a 10K resistor between pin 28 (+5 volt) and pin 27 (WE) for HRG8 (High Res) compatibility.
 
-# The PCB:
+# The PCB (Rev. A):
 ![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/Rev.%20A/ZX81%20Intern%2016K.png)
 
 # Billing of Materials:
@@ -37,6 +37,13 @@ PRINT PEEK 16388+256*PEEK 16389
 
 Result should be 32768.
 
+# ZX81 - Internal-32K-Expansion 'vLA81 Edition'
+Rev. B of the memory expansion. The vLA81 is an awesome replacement for the ZX81 ULA. It has all the needed logic in it's CPLD to do all the decoding to give the ZX81 the full 32KB. It is very similar to the 16KB expansion, it only needs an extra Address Line (A14) to make the magic happen. 
+
+# The PCB (Rev. B)
+
+# Installation:
+Same as the 16KB expansion. It only needs one more Address Line.
 
 
 

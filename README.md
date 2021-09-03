@@ -40,10 +40,37 @@ Result should be 32768.
 # ZX81 - Internal-32K-Expansion 'vLA81 Edition'
 Rev. B of the memory expansion. The vLA81 is an awesome replacement for the ZX81 ULA. It has all the needed logic in it's CPLD to do all the decoding to give the ZX81 the full 32KB. It is very similar to the 16KB expansion, it only needs an extra Address Line (A14) to make the magic happen. 
 
-# The PCB (Rev. B)
+# The PCB (Rev. B):
+![alt text](https://github.com/redhawk668/ZX81-Internal-16K-Expansion/blob/main/Rev.%20B%20-%20vLA81/ZX81%20Intern%2032K.png)
+
+# Billing of Materials:
+Same as Rev. A
 
 # Installation:
-Same as the 16KB expansion. It only needs one more Address Line.
+Same as the 16KB expansion. It only needs one more Address Line connected.
+
+Address Line A14 must be soldered to the cathode of D7, the rest is the same as Rev. A.
+
+# Memory configurations:
+- Both dipswitches USR0/USR1 to off: 16KB
+- Dipswitch USR0 to on and USR1 to off: 16 - 148KB, suitable for hires programs
+- Dipswitch USR0 to off and USR1 to on: 8K - 40K, provides lower 32K memory map for WRX hires programs
+- Both dipswitches to on, provides soft config.
+
+To activate the full 32KB, the ZX81 has to be told to raise it's RAMTOP, normally it will only see the first 16KB.
+
+Run the following commands:
+
+POKE 16389,255 followed by a NEW command. This will raise the RAMTOP and the ZX81 will now be able to use the full 32KB.
+
+Depending on the dipswitches, the command:
+
+PRINT PEEK 16388+256*PEEK 16389
+
+Will result in 49152 or 40960.
+
+
+
 
 
 

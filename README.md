@@ -53,7 +53,7 @@ Address Line A14 must be soldered to the cathode of D7, the rest is the same as 
 
 # Memory configurations:
 - Both dipswitches USR0/USR1 to off: 16KB
-- Dipswitch USR0 to on and USR1 to off: 16 - 148KB, suitable for hires programs
+- Dipswitch USR0 to on and USR1 to off: 16 - 48KB, suitable for hires programs
 - Dipswitch USR0 to off and USR1 to on: 8K - 40K, provides lower 32K memory map for WRX hires programs
 - Both dipswitches to on, provides soft config.
 

@@ -51,6 +51,8 @@ Same as the 16KB expansion. It only needs one more Address Line connected.
 
 Address Line A14 must be soldered to the cathode of D7, the rest is the same as Rev. A.
 
+Connect pin 3 of the Z80 (A13) to pin 35 of the vLA81. Normally this is reserved for the clock signal from the resonator. The vLA81 has it's own clock crystal, so this pin has another purpose.
+
 # Memory configurations:
 - Both dipswitches USR0/USR1 to off: 16KB
 - Dipswitch USR0 to on and USR1 to off: 16 - 48KB, suitable for hires programs
